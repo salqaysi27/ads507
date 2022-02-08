@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: tickitdb
+    database: tickitdb
+
+    schema: tickitdb
+    tables:
+      - name: category
+      - name: date
+      - name: event
+      - name: listing
+      - name: sales
+      - name: users
+      - name: venue
