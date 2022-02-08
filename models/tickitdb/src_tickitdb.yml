@@ -20,3 +20,8 @@ sources:
         description: Users who bought ticketrs to out-of-state events
       - name: venue
         description: Getting the total number of sales per venue city
+
+        loaded_at_field: _etl_loaded_at
+        freshness:
+          warn_after: {count: 12, period: hour}
+          error_after: {count: 24, period: hour}
