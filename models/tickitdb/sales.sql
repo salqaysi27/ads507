@@ -2,7 +2,7 @@
     materialized="table"
 )}}
 
---Percentage of price paid commission
+--Percentage of price paid commission per seller
 
 SELECT
   1.0 * commission / pricepaid AS commission_pct,

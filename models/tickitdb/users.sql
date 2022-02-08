@@ -1,7 +1,3 @@
-{{ config (
-    materialized="table"
-)}}
-
 --Number of users who bought ticketrs to out-of-state events
 
 SELECT COUNT(DISTINCT u.userid)
