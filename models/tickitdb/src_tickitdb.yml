@@ -7,9 +7,16 @@ sources:
     schema: tickitdb
     tables:
       - name: category
+        description: Number of type of concert attended that is Jazz
       - name: date
+        description: Tickets sold on each holiday in 2008 
       - name: event
+        description: If any of the concerts in 2008 were for Beyonce
       - name: listing
+        description: Find out the cont of VIP tickets that were listed
       - name: sales
+        description: Percentage of price paid commission per seller
       - name: users
+        description: Users who bought ticketrs to out-of-state events
       - name: venue
+        description: Getting the total number of sales per venue city
